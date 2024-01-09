@@ -300,14 +300,13 @@ def get_daily_schedule(selected_group, selected_day):
                 'Суббота': 'Saturday',
                 'Воскресенье': 'Sunday'
             }
-            # Изменяем значение selected_day на английский день недели, если выбранный день есть в словаре
+            #Меняем английский день недели
             if selected_day in days_of_week:
                 selected_day = days_of_week[selected_day]
                 print('Преобразованнан день недели')
             else:
                  print('нет такого дня недели ')
 
-            # selected_day содержит день недели на английском языке (если найден в словаре)
             text = selected_group
             result = text.split(' ', 1)[0]
             print(result)
