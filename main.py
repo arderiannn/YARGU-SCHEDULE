@@ -7,7 +7,7 @@ from telebot import types
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 
-TELEGRAM_TOKEN = '6527305072:AAE-nILeQ90Moq3FEvvgqbmkFHS5WneV8O0'
+TELEGRAM_TOKEN = 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 selected_course = None
